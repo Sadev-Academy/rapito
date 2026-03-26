@@ -38,6 +38,10 @@ export const metadata: Metadata = {
   other: {
     "theme-color": "#1A1A1A",
   },
+  icons: {
+    icon: "/icon.png",
+    apple: "/icon.png",
+  },
 };
 
 export default function RootLayout({
