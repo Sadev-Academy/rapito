@@ -1,36 +1,110 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Rapito – Premium Italian Restaurant Website
 
-## Getting Started
+![Rapito Banner](https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=80&w=2070)
 
-First, run the development server:
+Rapito is a high-end portfolio project designed to showcase a modern, luxury dining experience. Built with a focus on premium UI/UX, smooth animations, and a responsive mobile-first approach, it simulates a real-world client website for an authentic Italian ristorante in Mayfair, London.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌟 Key Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Modern Responsive Design**: Fully optimized for mobile, tablet, and desktop views.
+- **Premium UI/UX**: Custom-tailored aesthetics using a sophisticated color palette (Charcoal, Gold, and Cream).
+- **Interactive Reservation System**: A functional frontend booking form with real-time validation and submission states.
+- **Immersive Animations**: Smooth scroll-reveal effects and hover interactions built with Intersection Observer and Tailwind CSS.
+- **Optimized Performance**: Leverages Next.js 15+ features for fast loading and SEO readiness.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠 Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework**: [Next.js 16 (App Router)](https://nextjs.org/)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
+- **Typography**: [Google Fonts](https://fonts.google.com/) (Playfair Display & Inter)
+- **Icons/Graphics**: Custom SVG icons and AI-generated imagery.
+- **Language**: TypeScript / JavaScript (React 19)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📸 Screenshots
 
-## Deploy on Vercel
+> [!NOTE]
+> Add your own project screenshots here to make it truly personal.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Desktop View
+![Desktop Hero](public/images/hero/dining-interior.png)
+*Immersive hero section with glassmorphism effects.*
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Menu Section
+*Elegant menu layout with categorized Italian delicacies.*
+
+### Reservation Form
+*Clean, validated booking interface for a seamless user experience.*
+
+---
+
+## 🚀 Live Demo
+
+[Visit Live Site (Placeholder)](https://rapito-ristorante.vercel.app)
+
+---
+
+## 📦 Getting Started
+
+### Prerequisites
+
+- Node.js 18.x or later
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/rapito.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd rapito
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+## 📂 Project Structure
+
+- `/app`: Next.js App Router for routing and layout.
+- `/components/ui`: Reusable primitive UI components (Buttons, Cards, etc.).
+- `/sections`: Large-scale page sections (Hero, About, Menu, Reservation).
+- `/lib`: Utility functions and static data.
+- `/hooks`: Custom React hooks (e.g., `useScrollReveal`).
+- `/public`: Optimized images and assets.
+
+---
+
+## 🔮 Future Improvements
+
+- **Backend Integration**: Connecting the reservation system to a database (Prisma/PostgreSQL).
+- **CMS Integration**: Adding a headless CMS (Sanity/Contentful) for dynamic menu management.
+- **Multi-language Support**: i18n support for international guests.
+
+---
+
+## 👤 Author
+
+**Your Name**
+- Portfolio: [yourportfolio.com](https://yourportfolio.com)
+- LinkedIn: [linkedin.com/in/yourname](https://linkedin.com/in/yourname)
+
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
