@@ -51,7 +51,6 @@ export function Hero() {
               </svg>
             ))}
           </div>
-          <span className="font-sans text-[10px] md:text-xs uppercase tracking-widest font-semibold text-white/90">Rated 5★ By Locals</span>
         </div>
 
         {/* Headline */}
@@ -73,8 +72,8 @@ export function Hero() {
             </Button>
           </a>
           <a href="#menu" className={`hero-enter hero-delay-4 ${m} w-full sm:w-auto min-w-[220px] lg:min-w-[260px] inline-flex items-center justify-center h-14 px-10 text-sm md:text-base font-sans font-medium uppercase tracking-[0.15em] border border-white text-white hover:bg-white hover:text-[var(--color-charcoal)] backdrop-blur-sm shadow-[0_20px_40px_rgba(0,0,0,0.2)] transition-all duration-500 ease-out hover:-translate-y-[2px]`}>
-              View Menu
-            </a>
+            View Menu
+          </a>
         </div>
       </Container>
     </div>
